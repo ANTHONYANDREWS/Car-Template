@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    background-image: url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1283&q=80");
+    height: 680px;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+
+/* .navbar{
+    display: flex;
+}
+
+.nav-left{
+    float: left;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+
+.nav-left a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+.nav-right  a{
+    display: flex;
+    align-items: row;
+    justify-content:space-around;
+    color: #fff;
+    text-decoration: none;
+    
+} */
+
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 200px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 10px 7px;
+}
+
+a.active, a:hover{
+    background: skyblue;
+    transition: .5s;
+}
+
+.content{
+    margin: 250px 350px;
+}
+
+.content-color-white{
+    color: #fff;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.content-color-skyblue{
+    color: skyblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button-color-skyblue{
+    color: white;
+    background-color: skyblue;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.footer{
+    height: 65px;
+    background: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    
+}
+
+.foot{
+    margin-top: 10px;
+}
